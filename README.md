@@ -7,6 +7,11 @@ This repository contains selected source files from the QuickFIX/J open-source G
 ## QuickFIX/J
 
 Original GitHub Repository:https://github.com/quickfix-j/quickfixj
+# Selected File Link:
+1. https://github.com/quickfix-j/quickfixj/tree/master/quickfixj-base/src/main/java/quickfix
+2. https://github.com/quickfix-j/quickfixj/tree/master/quickfixj-core/src/main/java/org/quickfixj/jmx/mbean/connector
+3. https://github.com/quickfix-j/quickfixj/tree/master/quickfixj-core/src/main/java/org/quickfixj/jmx/openmbean
+
 # 1. ConnectorJmxExporter.java
 # Description
 The ConnectorJmxExporter class is responsible for exposing FIX session connectors to the Java Management Extensions (JMX) framework so that they can be monitored and managed during runtime. It acts as the entry point for registering connector-related MBeans and ensures that every connector receives a unique JMX object name.
